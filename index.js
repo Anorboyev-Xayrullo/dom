@@ -4,7 +4,7 @@ let num = 0
 count.onclick = () =>{
     num += 1
     count.innerHTML = num
-    if (count.innerHTML == 5){
+    if (count.innerHTML == 100){
       count.innerHTML = 0;
       num=0;
     }else{
